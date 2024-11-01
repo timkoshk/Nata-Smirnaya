@@ -21,7 +21,7 @@ header {
 /* Приветственный блок */
 .hero {
     position: relative;
-    width: 100%;
+    width: auto;
     max-width: 1200px;
     min-height: 500px; /* Минимальная высота блока */
     height: auto;
