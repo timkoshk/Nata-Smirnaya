@@ -52,6 +52,7 @@ header nav ul li a {
     height: 100%;
     object-fit: cover;
 /* Раздел с книгами */
+/* Раздел с книгами */
 .books {
     text-align: center;
     padding: 40px 20px;
@@ -63,15 +64,23 @@ header nav ul li a {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    align-items: flex-start; /* Центрирование книг по верхнему краю */
 }
 
 .book {
     text-align: center;
+    flex-shrink: 0; /* Отключение сжатия для каждой книги */
 }
 
 .book img {
     width: 120px;
     height: auto;
+    transition: transform 0.3s ease; /* Плавное увеличение при наведении */
+}
+
+/* Увеличение центральной книги на 15% */
+.book:nth-child(2) img {
+    transform: scale(1.15); /* Увеличение центрального изображения */
 }
 
 .buttons {
