@@ -7,11 +7,10 @@ body {
 }
 
 /* Шапка */
-header {
-    padding: 20px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
+.books {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #FFFFFF, #e6eaff); /* Градиент от белого к #e6eaff */
+    text-align: center;
     justify-content: space-between;
 }
 
