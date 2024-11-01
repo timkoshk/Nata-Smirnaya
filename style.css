@@ -39,7 +39,7 @@ header nav ul li a {
 /* Приветственный блок */
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     display: flex;
     align-items: center;
