@@ -22,19 +22,19 @@ header {
 .hero {
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Ограничение максимальной ширины для больших экранов */
-    height: 500px; /* Высота блока */
+    max-width: 1200px;
+    min-height: 500px; /* Минимальная высота блока */
+    height: auto;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: #fff;
     padding-left: 50px;
-    background-image: url('images/background-welcome.PNG'); /* Путь к загруженному изображению */
+    background-image: url('images/background-welcome.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
 
 .hero h2 {
     font-size: 48px;
