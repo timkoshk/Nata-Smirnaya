@@ -43,7 +43,7 @@ header nav ul li a {
 /* Приветственный блок */
 .hero {
     width: 100vw; /* Ширина на всю видимую область */
-    height: 500px;
+    height: 100vh;
     overflow: hidden;
 }
 
