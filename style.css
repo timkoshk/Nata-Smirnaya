@@ -8,17 +8,25 @@ body {
 
 /* Шапка */
 header {
-    text-align: center;
+    text-align: left; /* Выровнять по левому краю */
     padding: 20px;
     background-color: #fff;
+    display: flex;
+    align-items: center; /* Выравнивание содержимого по вертикали */
+}
+
+header .logo {
+    margin-right: 20px; /* Отступ между логотипом и меню */
 }
 
 header nav ul {
     list-style-type: none;
+    padding: 0; /* Убрать отступы */
+    margin: 0;
+    display: flex; /* Flex для горизонтального меню */
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
