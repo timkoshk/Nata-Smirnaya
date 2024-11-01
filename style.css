@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #FFFFFF;
 }
 
 /* Шапка */
 header {
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
