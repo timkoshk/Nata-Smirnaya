@@ -44,7 +44,7 @@ header nav ul li a {
 .hero {
     width: 100vw; /* Ширина на всю видимую область */
     height: 100vh;
-    overflow: hidden;
+    overflow: cover;
 }
 
 .hero-image {
