@@ -54,9 +54,9 @@ header nav ul li a {
 
 /* Раздел с книгами */
 .books {
-    text-align: center;
     padding: 40px 20px;
     background-color: #e6eaff;
+    text-align: center;
 }
 
 .book-covers {
@@ -69,10 +69,11 @@ header nav ul li a {
 .book {
     text-align: center;
     flex-shrink: 0;
+    width: 150px; /* Задаем ширину для единообразия */
 }
 
 .book img {
-    width: 120px;
+    width: 100%;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -80,20 +81,6 @@ header nav ul li a {
 /* Увеличение центральной книги на 15% */
 .book-covers .book:nth-child(2) img {
     transform: scale(1.15);
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    background-color: #007acc;
-    color: #fff;
-    cursor: pointer;
 }
 
 /* Раздел с отзывами */
