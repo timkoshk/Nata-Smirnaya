@@ -7,16 +7,14 @@ body {
 }
 
 /* Шапка */
-.books {
-    padding: 40px 20px;
-    background: linear-gradient(to bottom, #FFFFFF, #e6eaff); /* Градиент от белого к #e6eaff */
+header {
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    justify-content: space-between;
-}
-
-header .logo {
-    width: 100px;
-    height: auto;
+    border-bottom: 1px solid #e6eaff;
 }
 
 header nav ul {
@@ -24,16 +22,61 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-}
-
-header nav ul li {
-    margin: 0 15px;
+    gap: 20px;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #333;
+    font-weight: 500;
 }
+
+/* Логотип и корзина */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.cart-icon {
+    width: 40px;
+    height: auto;
+    position: relative;
+}
+
+.cart-icon::after {
+    content: "1";
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #6b6bff;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+/* Центрирование текста */
+header h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+header h2 {
+    color: #6b6bff;
+    font-size: 1.2em;
+    margin: 0;
+}
+
 
 /* Приветственный блок */
 .hero {
