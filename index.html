@@ -20,38 +20,33 @@
         </nav>
     </header>
 
-    <!-- Блок Приветствия -->
-    <section id="welcome">
+    <!-- Логотип и название -->
+    <header>
+        <img src="images/logo.png" alt="Логотип" class="logo">
         <h1>Ната Стриганая</h1>
         <p>Верь в мечту</p>
-        <div class="welcome-content">
-            <div class="welcome-text">
-                <h2>Приветствую, дорогой читатель!</h2>
-                <p>В моих книгах вы найдете отражение самих себя...</p>
-            </div>
-            <div class="welcome-image">
-                <img src="path/to/your-image.jpg" alt="Автор">
-            </div>
-        </div>
+    </header>
+
+    <!-- Приветственный блок -->
+    <section class="hero">
+        <img src="images/background-welcome.PNG" alt="Фоновое изображение" class="hero-image">
     </section>
 
-    <!-- Новинки от автора -->
-    <section id="new-releases">
-        <h2>Новое от автора</h2>
-        <div class="book-list">
+    <!-- Раздел с книгами -->
+    <section id="books" class="books">
+        <h3>Новое от автора</h3>
+        <div class="book-covers">
             <div class="book">
-                <span>Бестселлер</span>
-                <img src="path/to/book1.jpg" alt="Книга 1">
-                <p>Crossroads</p>
+                <img src="images/book-cover1.png" alt="Обложка книги 1">
+                <p>Бестселлер</p>
             </div>
             <div class="book">
-                <img src="path/to/book2.jpg" alt="Книга 2">
-                <p>Crossroads</p>
+                <img src="images/book-cover2.png" alt="Обложка книги 2">
+                <p>Новинка</p>
             </div>
             <div class="book">
-                <span>Анонс</span>
-                <img src="path/to/book3.jpg" alt="Книга 3">
-                <p>Crossroads</p>
+                <img src="images/book-cover3.png" alt="Обложка книги 3">
+                <p>Анонс</p>
             </div>
         </div>
         <div class="buttons">
@@ -60,26 +55,34 @@
         </div>
     </section>
 
-    <!-- Отзывы читателей -->
-    <section id="reviews">
-        <h2>Отзывы читателей</h2>
+    <!-- Раздел с отзывами -->
+    <section class="reviews">
+        <h3>Отзывы читателей</h3>
         <div class="review">
-            <img src="path/to/dog-image.jpg" alt="Собака">
-            <blockquote>
-                <p>Название отзыва — увлекательный роман с элементами детектива...</p>
-                <footer>Олеся Иванова</footer>
-            </blockquote>
-            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <img src="images/dog-icon.png" alt="Собачка" class="dog-icon">
+            <p>«Название отзыва — увлекательный роман с элементами детектива, приключений и романтики...»</p>
+            <p>Олеся Иванова</p>
+            <div class="stars">
+                <img src="images/star-icon.png" alt="Звезда" class="star-icon">
+                <img src="images/star-icon.png" alt="Звезда" class="star-icon">
+                <img src="images/star-icon.png" alt="Звезда" class="star-icon">
+                <img src="images/star-icon.png" alt="Звезда" class="star-icon">
+                <img src="images/star-icon.png" alt="Звезда" class="star-icon">
+            </div>
         </div>
     </section>
 
     <!-- Футер -->
     <footer>
-        <p>Ната Стриганая - Верь в мечту</p>
         <p>Вопросы и предложения</p>
-        <p>Телефон: +7 999 999 99 99</p>
-        <p>Email: pochta@mail.ru</p>
+        <p>+7 999 999 99 99</p>
+        <p>pochta@mail.ru</p>
         <p>Адрес</p>
+        <div class="footer-icons">
+            <img src="images/footer-icon1.png" alt="Иконка 1">
+            <img src="images/footer-icon2.png" alt="Иконка 2">
+        </div>
     </footer>
 </body>
 </html>
+
