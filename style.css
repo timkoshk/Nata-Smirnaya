@@ -104,34 +104,14 @@ header h2 {
 .book-covers {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 100px; /* Увеличенное расстояние между книгами */
     margin-top: 20px;
 }
 
 .book {
     text-align: center;
     flex-shrink: 0;
-    width: 150px;
-}
-
-.book img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-
-.book-covers {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 20px;
-}
-
-.book {
-    text-align: center;
-    flex-shrink: 0;
-    width: 150px; /* Задаем ширину для единообразия */
+    width: 150px; /* Ширина для единообразия */
 }
 
 .book img {
