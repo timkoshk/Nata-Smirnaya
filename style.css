@@ -104,7 +104,7 @@ header h2 {
 .book-covers {
     display: flex;
     justify-content: center;
-    gap: 50px; /* Увеличенное расстояние между книгами */
+    gap: 30px; /* Увеличенное расстояние между книгами */
     margin-top: 20px;
 }
 
